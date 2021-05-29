@@ -1,0 +1,261 @@
+body {
+    margin:0;
+    height: 100vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+/*Estilo del grid general*/
+
+.contenedorGeneral {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 0.3fr 0.7fr 1fr 1fr 0.5fr;
+}
+
+/*Estilo del header*/
+
+.header {
+    grid-area: 1 / 1 / 2 / 3;
+}
+
+.header img {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 300px;
+    height: auto;
+}
+
+/*Estilo de los titulares de cada apartado*/
+
+h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+/*Estilo del menu*/
+
+.menu {
+    grid-area: 2 / 1 / 3 / 3;
+    background: #f9f9f9;
+}
+
+.barraNav {
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(138, 43, 226);
+    overflow: hidden;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2);
+}
+.barraNav a {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #f2f2f2;
+    padding: 1.5rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+.barraNav a:hover {
+    background-color: rgb(138, 43, 226);
+    color: rgb(0, 0, 0);
+  }
+
+/*Estilo de la Tabla 1*/
+
+.box-tabla1 {
+    grid-area: 3 / 1 / 4 / 3;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    padding-left: 20px;
+    background: #f9f9f9;   
+}
+
+.box-tabla1 > #formacion {
+    margin-left: 12%;
+    text-align: center;
+    width: 70%;
+    max-width: 100%;
+    border-collapse: collapse;
+    font-size: large;
+}
+
+#formacion th, #formacion td{
+    padding: 8px;  
+    height: 35px;
+    border-style: hidden;
+
+}
+
+#formacion > thead {
+    color: #ffffff;
+    background: rgb(138, 43, 226);   
+    
+}
+
+#formacion > tbody {
+    color: #495057;
+    background: #e6f1f4;
+}
+
+/*Estilo de la Tabla 2*/
+
+.box-tabla2 {
+    grid-area: 4 / 1 / 5 / 2;
+    padding-left: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.box-tabla2 > #profesores {
+    margin-left: 15%;
+    text-align: center;
+    width: 70%;
+    max-width: 100%;
+    border-collapse: collapse;
+    font-size: large;
+}
+
+#profesores th, #profesores td{
+    padding: 8px;  
+    height: 35px;
+}
+
+#profesores > thead {
+    color: #ffffff;
+    background: #00c2ab;
+}
+
+#profesores > tbody {
+    color: #495057;
+    background: #e6f1f4;
+}
+
+/*Estilo de la Lista*/
+
+.lista > #titulo-lista {
+    text-align: center;
+    color:#172a87;  
+}
+
+.lista {
+    grid-area: 4 / 2 / 5 / 3;
+    padding-left: 20px;
+    text-align: center;
+    width: 97%;
+    max-width: 100%;
+    background: #e6f1f4;
+    box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.2)
+}
+
+#lista-ordenada {
+    margin-top: 6%;
+    margin-right: 8%;
+    margin-left: 6%;
+    border: 2px solid rgb(138, 43, 226);
+    border-radius: 10px;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2);
+    background: rgb(138, 43, 226);
+}
+
+ol li{
+   list-style: none;
+   margin: 15px;
+   margin-right: 15%;
+   text-align: center;
+   font-size: 25px;
+}
+
+.elem-ord {
+    background: #00ccff;
+    color:white;
+    height:1.5em;
+    border-radius: 5px;
+    margin-left: 8%;
+    margin-bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+ul {
+    text-align: center;
+    list-style: inside;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color: white;
+  }
+
+/*Estilo de formulario*/
+
+#titulo-formulario {
+    border-bottom: 2px solid;
+}
+
+.formulario {
+    grid-area: 5 / 1 / 6 / 3;
+    padding-left: 20px;
+    position: relative;
+    font-size: 14px;
+    background: #f9f9f9;
+}
+
+fieldset {
+    border-style: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.2);
+}
+
+fieldset p {
+    margin-left: 25px;
+}
+
+.button {
+    text-align: center;
+}
+
+#boton {
+    height: 50px;
+    width: 90px;
+    border-style: hidden;
+    border-radius: 8px;
+    background:rgb(138, 43, 226);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+input {
+    border-style: hidden;
+    border-radius: 10px;
+    background: #e6f1f4;
+    padding: 12px;
+    width: 250px;
+    margin-left: 10px;
+    width: 75%;
+}
+
+select {
+    font-size: medium;
+    border-radius: 10px;
+    border-style: hidden;
+    background: #e6f1f4;
+    height: 40px;
+    width: 75%;
+}
+fieldset {
+    margin: 3em auto;
+    margin-right: 3em;
+}
+
+/*Estilo del footer*/
+
+.footer {
+    grid-area: 6 / 1 / 7 / 3;
+    background-color: black;
+}
+
+
+
+
