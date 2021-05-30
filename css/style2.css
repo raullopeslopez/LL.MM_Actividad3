@@ -58,6 +58,7 @@ fieldset{
 }
 legend{
     font-size: 20px;
+    font-weight: bold;
 }
 input{
     display: block;
@@ -68,8 +69,17 @@ label{
     margin-left: 10px;
     margin-top: 10px;
 }
+input:focus{
+    background-color: d1d8da;
+}
+input:hover{
+    background-color: d1d8da;
+}
 select {
-    margin-top: 10px;
+    margin: 10px;
+}
+.bold {
+    font-weight: bold;
 }
 
 #empty{
@@ -77,5 +87,13 @@ select {
     height: 5px;
     background-color: #d1d8da;
     margin: auto;
+}
+button{
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+ul{
+   list-style-type: square; 
 }
 

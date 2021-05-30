@@ -63,15 +63,15 @@
           <div id="empty"></div>
           <div class="dir">
             <fieldset>
-              <legend> Direccion</legend>
+              <legend> Dirección</legend>
             <ol>
-              <li>Director</li>
+              <li class="bold">Director</li>
               <ul>
                 <li>Nombre: Chon</li>
                 <li>Despacho: Numero 31, 3ª Planta, Edificio A</li>
               </ul>
 
-              <li>Jefe de estudios</li>
+              <li class="bold">Jefe de estudios</li>
               <ul>
                 <li>Nombre: Dani</li>
                 <li>Numero 27, 2ª Planta, Edificio B</li>
@@ -101,6 +101,7 @@
                 <option>Desarrollo de Aplicaciones Web</option>
                 <option>Desarrollo de Aplicaciones Multiplataforma</option>
               </select>
+              <button>Enviar</button>
             </fieldset>
           </form>
 
