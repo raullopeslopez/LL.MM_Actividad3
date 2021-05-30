@@ -1,0 +1,81 @@
+h1 {
+    text-align: center;
+    color: rgb(14, 179, 230);
+    padding: 15px;
+    border: rgb(14, 179, 230) 5px ridge;
+    margin: 10px;
+}
+h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+h3{
+    text-align: center;
+}
+
+.tabla1 {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 50%;
+    
+}
+
+.tabla2 {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 50%;
+}
+th{
+    background-color:rgb(14, 179, 230);
+    padding: 10px;
+}
+td{
+    background-color: #d1d8da;
+    padding: 10px;
+
+}
+
+.dir {
+   width: 300px;
+   margin: auto;
+   position: absolute;
+   left: 25%;
+   top: 730px;
+   
+}
+form{
+    float: left;
+    width: 400px;
+    position: absolute;
+    left: 54%;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+fieldset{
+    border: 5px rgb(14, 179, 230) solid;
+}
+legend{
+    font-size: 20px;
+}
+input{
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+label{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+select {
+    margin-top: 10px;
+}
+
+#empty{
+    width: 75%;
+    height: 5px;
+    background-color: #d1d8da;
+    margin: auto;
+}
+
