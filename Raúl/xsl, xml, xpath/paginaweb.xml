@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="xsl/docXSL.xsl"?>
+<?xml-stylesheet type="text/xsl" href="Raúl/xsl,xml,xpath/docXSL.xsl"?>
 <ite nombre="Instituto Tecnológico Edix" web="https://institutotecnologico.edix.com">
 
     <empresa>Proeduca</empresa> <!-- Tabla 1: Empresa -->
