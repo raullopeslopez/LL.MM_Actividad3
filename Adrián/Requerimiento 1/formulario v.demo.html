@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css" />
+<html>
+  <head>
+    <title>Formulario de contacto</title>
+  </head>
+
+  <header>
+    <h2>Formulario de contacto</h2>
+    <p>
+      Servicio de atención telefónica en el: xx-xxx-xx-xx (disponible de lunes a viernes de 09:00h a
+      19:00 h).
+    </p>
+  </header>
+
+  <body>
+    <!-- "mailto": Email donde se va a enviar, "method post": para enviar datos, "enctype": encoding -->
+
+    <form action="mailto:direccion@email" method="post" enctype="text/plain">
+      <!-- "input": parte del formulario donde interactuar-->
+      <label for="nombre"> Nombre: </label>
+      <input name="nombre" id="nombre" type="text" />
+
+      <label for="apellido-1"> Primer apellido: </label>
+      <input name="apellido-1" id="apellido-1" type="text" />
+
+      <label for="apellido-2"> Segundo apellido: </label>
+      <input name="apellido-2" id="apellido-2" type="text" />
+
+      <label for="telefono-contacto"> Teléfono de contacto: </label>
+      <input tfn="telefono-contacto" id="telefono-contacto" type="number" />
+
+      <label for="email"> Email </label>
+      <input email="email" id="email" type="email" />
+
+      <!-- "submit": Botón de enviar. "Value": Texto que aparece en el mensaje.-->
+      <input type="submit" id="boton-enviar" value="Enviar" />
+    </form>
+  </body>
+
+  <footer>
+    EDIX EDUCACIÓN S.A. (en adelante, Edix), tratará los datos de carácter
+    personal que nos has proporcionado con la finalidad de atender a tu
+    solicitud de información acerca de los productos y servicios ofrecidos por
+    Edix, por vía telefónica o electrónica. Podrás revocar el consentimiento
+    otorgado, así como ejercitar los derechos reconocidos en los artículos 15 a
+    22 del Reglamento (UE) 2016/679, mediante solicitud dirigida a c/ Aravaca 12,
+    28040, Madrid, España, o a la siguiente dirección de correo electrónico:
+    rgpd@edix.com, adjuntando copia de su DNI o documentación acreditativa de su
+    identidad. Si lo deseas puede consultar información adicional y detallada
+    sobre la ley de Protección de Datos pinchando <a target="_blank" 
+    href="https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"> aquí </a>.
+  </footer>
+</html>
